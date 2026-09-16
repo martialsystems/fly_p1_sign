@@ -1,0 +1,27 @@
+{
+  "runtime_checks": [
+    {
+      "id": "unit-tests",
+      "argv": [".venv/bin/python", "-m", "pytest", "tests/", "-q"],
+      "timeout_s": 180,
+      "paths": [
+        "src/**",
+        "tests/**",
+        "signforge/**",
+        "data/**",
+        "logs/**",
+        "README.md",
+        "AGENTS.md",
+        "description.txt",
+        "pyproject.toml",
+        "vbd.runtime.json"
+      ]
+    },
+    {
+      "id": "signforge-sanity",
+      "argv": [".venv/bin/python", "signforge/scripts/sanity_signforge.py"],
+      "timeout_s": 60,
+      "paths": ["signforge/**"]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "dataset": "male-cns:v1.0",
+  "weights": "significant-only",
+  "kind": "hop1_signed_onto_pC1_coexpress",
+  "P1_definition": "type pC1_* and fruDsx coexpress_*",
+  "n_P1": 88,
+  "n_pC1": 148,
+  "class_n": {
+    "P1_coexpress": 88,
+    "pC1_all": 148,
+    "ORN_DA1": 204,
+    "ORN_VA1v": 130,
+    "VA1v_PN": 12,
+    "DA1_PN": 15,
+    "LC10a": 275,
+    "ppk23": 269
+  },
+  "hops": {
+    "VA1v_PN_to_P1": {
+      "n_edges": 31,
+      "weight": 67,
+      "signed": -3,
+      "n_pre": 11,
+      "n_post": 17,
+      "nt": {
+        "acetylcholine": 32,
+        "gaba": 35
+      }
+    },
+    "DA1_PN_to_P1": {
+      "n_edges": 28,
+      "weight": 62,
+      "signed": 62,
+      "n_pre": 12,
+      "n_post": 8,
+      "nt": {
+        "acetylcholine": 62
+      }
+    },
+    "LC10a_to_P1": {
+      "n_edges": 137,
+      "weight": 606,
+      "signed": 606,
+      "n_pre": 106,
+      "n_post": 5,
+      "nt": {
+        "acetylcholine": 606
+      }
+    },
+    "ppk23_to_P1": {
+      "n_edges": 0,
+      "weight": 0,
+      "signed": 0,
+      "n_pre": 0,
+      "n_post": 0,
+      "nt": {}
+    },
+    "ORN_VA1v_to_P1": {
+      "n_edges": 0,
+      "weight": 0,
+      "signed": 0,
+      "n_pre": 0,
+      "n_post": 0,
+      "nt": {}
+    },
+    "ORN_DA1_to_P1": {
+      "n_edges": 0,
+      "weight": 0,
+      "signed": 0,
+      "n_pre": 0,
+      "n_post": 0,
+      "nt": {}
+    },
+    "ORN_DA1_to_DA1_PN": {
+      "n_edges": 2257,
+      "weight": 32016,
+      "signed": 32016,
+      "n_pre": 204,
+      "n_post": 15,
+      "nt": {
+        "acetylcholine": 32016
+      }
+    },
+    "ORN_VA1v_to_VA1v_PN": {
+      "n_edges": 1032,
+      "weight": 16143,
+      "signed": 16143,
+      "n_pre": 130,
+      "n_post": 12,
+      "nt": {
+        "acetylcholine": 16143
+      }
+    },
+    "DA1_PN_to_pC1": {
+      "n_edges": 36,
+      "weight": 75,
+      "signed": 75,
+      "n_pre": 13,
+      "n_post": 10,
+      "nt": {
+        "acetylcholine": 75
+      }
+    },
+    "LC10a_to_pC1": {
+      "n_edges": 200,
+      "weight": 740,
+      "signed": 740,
+      "n_pre": 125,
+      "n_post": 14,
+      "nt": {
+        "acetylcholine": 740
+      }
+    }
+  },
+  "named_signed_onto_P1": {
+    "ORN_HD": -3,
+    "DA1": 62,
+    "LC10a": 606,
+    "ppk23": 0
+  },
+  "scale_divisor": 336.6666666666667,
+  "target_max_abs": 1.8,
+  "W_P1_named": {
+    "ORN_HD": -0.0089,
+    "DA1": 0.1842,
+    "LC10a": 1.8,
+    "ppk23": 0.0
+  },
+  "holes": {
+    "ppk23_hop1_onto_P1": true,
+    "ORN_HD_direct_onto_P1": true,
+    "DA1_hop1_sign": "acetylcholine_positive",
+    "ppk23_f_m_split": "absent_in_map"
+  }
+}

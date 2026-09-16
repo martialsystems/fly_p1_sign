@@ -4,7 +4,7 @@ Do MaleCNS-derived signed weights onto P1/pC1 still make HD-on / cVA-off necessa
 
 No. Hop-1 signed synapses onto pC1 coexpress do not. `hd_on_cva_off_ns` is false. Seed 1, 2,000 steps, `logs/p1_sign_s1.json`.
 
-Parent [fly_icarus](https://github.com/martialsystems/fly_icarus) `@2cf5fd6` made HD-on / cVA-off necessary and sufficient on a published-sign slice (`W[P1, DA1] = -1.8`, 3d-pin `W_crit = -1.5262`). This tree replaces that P1 row with MaleCNS v1 hop-1 signed contact counts, scaled so the largest named |signed| onto P1 equals 1.8. Motor rows stay schema. Not a 166,691-cell LIF.
+Parent [fly_icarus](https://github.com/martialsystems/fly_icarus) `@2cf5fd6` made HD-on / cVA-off necessary and sufficient on a published-sign slice (`W[P1, DA1] = -1.8`, 3d-pin `W_crit = -1.5262`). This tree replaces that P1 row with MaleCNS v1 hop-1 signed contact counts, scaled so the largest named |signed| onto P1 equals 1.8. Motor rows stay schema. Slice is 11 cells.
 
 Hop-1 onto 88 pC1 coexpress cells:
 

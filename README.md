@@ -42,6 +42,20 @@ DA1 dose on the 3d pin (`logs/p1_da1_dose_s1.json`): extract default `W[P1, DA1]
 
 Female template count: FlyWire 139,255. Male template count: MaleCNS 166,691.
 
+## Methods card
+
+Copied from `METHODS.yaml`.
+
+| Field | Value |
+|-------|-------|
+| Object | connectome measurement |
+| Status | Closed |
+| Falsifier | hd_on_cva_off_ns true on hop-1 signed weights |
+| n / seeds | seeds 2 and 3 match |
+| Science lock | `45aa064` |
+| Pre-specified | false |
+
+
 ## How to run
 
 ```
@@ -66,6 +80,8 @@ Rebuild W from feathers (optional):
 | `logs/p1_sign_s1.json` | Locked seed-1 battery |
 | `logs/p1_da1_dose_s1.json` | 3d-pin DA1 sweep |
 | `signforge/` | GraphForge pin |
+| `METHODS.yaml` | Methods card |
+| `CITATION.cff` | Citation file; DOI empty until a deposit exists |
 | `AGENTS.md` | Project rules and VBD |
 | `THIRD_PARTY.md` | Connectome attribution |
 

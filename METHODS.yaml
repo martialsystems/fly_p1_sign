@@ -1,0 +1,16 @@
+question: Do MaleCNS-derived signed weights onto P1/pC1 still make HD-on / cVA-off necessary and sufficient for the 3≈1 gate?
+falsifier: hd_on_cva_off_ns true on hop-1 signed weights
+object: connectome measurement
+status: Closed
+system: 11-cell slice; hop-1 onto 88 pC1-coexpress cells; MaleCNS v1.0
+data_version: "MaleCNS v1.0 hop-1 signed contact counts, scaled so largest |signed| onto P1 equals 1.8"
+neuron_table: type classes; hop-1 extract
+dynamics: same saturating assay as fly_icarus; W replaced by hop-1
+rng: numpy.random.default_rng(seed)
+n_seeds: 3
+n_meaning: seeds 2 and 3 match
+locked_metric: hd_on_cva_off_ns=false; DA1 +62 ACh; LC10a +606; science_lock 45aa064
+pre_specified: false
+science_lock: 45aa064
+parent_sha: "2cf5fd6"
+reduction: motor rows stay schema; hop-1 is the measurement
